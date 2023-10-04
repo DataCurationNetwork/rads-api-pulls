@@ -9,7 +9,7 @@ pacman::p_load(dplyr,
                tidyr, 
                readxl)
 
-setwd("~/Documents/NSF_RADS/")
+setwd("data")
 
 #read in NSF details
 nsfdeets <- read.csv("NSF/CombinedNSF_data_details_20220712.csv")
